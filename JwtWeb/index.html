@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html ng-app="JwtApp">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+<div class="container">
+    <div data-ng-view="">
+    </div>
+</div>
+    
+    
+<!-- 3rd party libraries -->
+<script src="Scripts/angular.min.js"></script>
+<script src="Scripts/angular-route.min.js"></script>
+<script src="Scripts/angular-local-storage.min.js"></script>
+<!-- Load app main script -->
+<script src="app.js"></script>
+<!-- Load services -->
+<script src="authInterceptor.service.js"></script>
+<script src="auth.service.js"></script>
+<script src="list.service.js"></script>
+<!-- Load controllers -->
+<script src="index.controller.js"></script>
+<script src="home.controller.js"></script>
+<script src="list.controller.js"></script>
+<script src="login.controller.js"></script>
+
+</body>
+</html>
